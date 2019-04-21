@@ -3,7 +3,7 @@
 
 # Definition for singly-linked list.
 
-# Definition阿斯顿发送到发送到打的费  阿斯顿发  for a binary tree node.
+# Definition  for a binary tree node.
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
