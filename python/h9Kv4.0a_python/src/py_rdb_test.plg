@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: db_test - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\chihl\AppData\Local\Temp\RSPBDC.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/py_rdb_test.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\home.wk\ems\system_linux(20190118)\python\v4.0a\src\db_test.c"
+]
+Creating command line "cl.exe @C:\Users\chihl\AppData\Local\Temp\RSPBDC.tmp" 
+Creating command line "link.exe /nologo /subsystem:console /incremental:yes /pdb:"Debug/py_rdb_test.pdb" /map:"Debug/py_rdb_test.map" /debug /machine:I386 /out:"Debug/py_rdb_test.exe" /pdbtype:sept  ".\Debug\db_test.obj" "
+<h3>Output Window</h3>
+Compiling...
+db_test.c
+Linking...
+
+
+
+<h3>Results</h3>
+py_rdb_test.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

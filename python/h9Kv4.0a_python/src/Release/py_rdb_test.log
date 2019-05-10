@@ -1,0 +1,31 @@
+﻿生成启动时间为 2018/12/24 21:52:53。
+     1>项目“D:\home.wk\ems\system_linux(20190118)\python\v4.0a\src\py_rdb_test.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\\" /Fd".\Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt py_rdb_test.c
+         py_rdb_test.c
+     1>py_rdb_test.c(89): warning C4305: “初始化”: 从“double”到“float”截断
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release\py_rdb_test.exe" /INCREMENTAL:NO /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\Release\py_rdb_test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\py_rdb_test.lib" /MACHINE:X86 /SAFESEH .\Release\py_rdb_test.obj
+     1>dblib.lib(dms_util.obj) : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:ICF”规范)
+     1>dblib.lib(dms_util.obj) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>dblib.lib(MountDB.obj) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>dblib.lib(ReadDatabase.obj) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>dblib.lib(WritePoint.obj) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>dblib.lib(mac.obj) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>dblib.lib(LoadEmsDefine.obj) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>dblib.lib(ReadPoint.obj) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>syslog.lib(syslog.obj) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __heap_alloc 已经在 LIBCMT.lib(malloc.obj) 中定义
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __msize 已经在 LIBCMT.lib(msize.obj) 中定义
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __recalloc 已经在 LIBCMT.lib(recalloc.obj) 中定义
+     1>LIBCMTD.lib(isctype.obj) : error LNK2005: __isctype 已经在 LIBCMT.lib(isctype.obj) 中定义
+     1>LIBCMTD.lib(isctype.obj) : error LNK2005: __isctype_l 已经在 LIBCMT.lib(isctype.obj) 中定义
+     1>LIBCMTD.lib(dbghook.obj) : error LNK2005: __crt_debugger_hook 已经在 LIBCMT.lib(dbghook.obj) 中定义
+     1>ipclib.lib(ipc_lib.obj) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>LINK : warning LNK4098: 默认库“LIBCMTD”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>.\Release\py_rdb_test.exe : fatal error LNK1281: 无法生成 SAFESEH 映像。
+     1>已完成生成项目“D:\home.wk\ems\system_linux(20190118)\python\v4.0a\src\py_rdb_test.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.17

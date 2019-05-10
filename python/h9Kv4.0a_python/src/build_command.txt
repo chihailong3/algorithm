@@ -1,0 +1,7 @@
+
+python setup.py build_ext --inplace
+
+带入编译路径
+python setup.py build_ext --include-dirs=/usr/include/gdal/..
+
+ 
